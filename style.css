@@ -1,4 +1,7 @@
-
+:root {
+    --main-white: #FFFFFF;
+    --main-background-black: #0C0C0E;
+}
 
 .flex-box {
     display: flex;
@@ -16,3 +19,28 @@
     align-items: center;
 }
 
+header {
+    background-color: var(--main-background-black);
+    color: var(--main-white);
+    padding: 1.25rem;
+}
+
+header p {
+    flex-grow: 1;
+}
+
+nav {
+    gap: 1rem;
+}
+
+nav a{
+    color: var(--main-white);
+    text-decoration: none;
+}
+
+.icon-profile {
+    background-image: url('/images/Subtract.svg');
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: 0 0 0 1rem ;
+}
