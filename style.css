@@ -3,8 +3,16 @@
     --main-background-black: #0C0C0E;
 }
 
+img {
+    display: block;
+}
+
 .flex-box {
     display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 .flex-justify-center {
@@ -17,6 +25,10 @@
 
 .flex-align-center {
     align-items: center;
+}
+
+.flex-wrap {
+    flex-flow: row wrap;
 }
 
 header {
@@ -33,6 +45,21 @@ nav {
     gap: 1rem;
 }
 
+.welcome {
+    background-image: url('/images/main.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.welcome div:nth-child(1) {
+    background-color: var(--main-background-black);
+    color: var(--main-white);
+    font-size: 2.5rem;
+    padding: 2rem 3rem;
+    text-align: center;
+}
+
 nav a{
     color: var(--main-white);
     text-decoration: none;
@@ -43,4 +70,16 @@ nav a{
     width: 1.75rem;
     height: 1.75rem;
     margin: 0 0 0 1rem ;
+}
+
+.heading-2 {
+    font-size: 2.5rem;
+}
+
+.about {
+    gap: 2rem;
+}
+
+.carousell {
+    gap: 2rem;
 }
