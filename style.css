@@ -1,6 +1,7 @@
 :root {
     --main-white: #FFFFFF;
     --main-background-black: #0C0C0E;
+    --main-border-black: #000000;
 }
 
 img {
@@ -28,7 +29,7 @@ img {
 }
 
 .flex-wrap {
-    flex-flow: row wrap;
+    flex-wrap: wrap;
 }
 
 header {
@@ -83,3 +84,16 @@ nav a{
 .carousell {
     gap: 2rem;
 }
+
+.favorites div:nth-child(1) {
+    align-self: center;
+}
+
+/* .favorites div:nth-child(2) img {
+    align-self: flex-end;
+    justify-self: flex-end;
+} */
+
+/* .favorites div:nth-child(2) div {
+    max-width: 590px;
+} */
