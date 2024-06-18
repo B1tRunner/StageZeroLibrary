@@ -89,6 +89,30 @@ nav a{
     align-self: center;
 }
 
+.favorites-items {
+    gap: 25px 200px;
+}
+
+.favorites-items-box {
+    max-width: 560px;
+    border: 1px solid brown;
+    margin-right: 2rem;
+    
+}
+
+.favorites-items-box img {
+    position: relative;
+    left: 400px;
+    top: 120px;
+}
+
+.favorites-items button {
+    margin: 2rem 0.5rem;
+    background: white;
+    width: 4rem;
+    height: 2rem;
+}
+
 /* .favorites div:nth-child(2) img {
     align-self: flex-end;
     justify-self: flex-end;
