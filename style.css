@@ -113,6 +113,49 @@ nav a{
     height: 2rem;
 }
 
+
+
+/* .coffee-shop p:nth-child(2) {
+    align-self: center;
+    text-align: center;
+} */
+
+.coffee-shop-list {
+    position: relative;
+    max-width: 430px;
+}
+
+.coffee-shop-list p:nth-child(1) {
+    position: relative;
+}
+
+.coffee-shop-list p:nth-child(1)::after {
+    content:" ";
+    height: 2px;
+    width: 8rem;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 10rem;
+}
+
+.coffee-shop-list p:nth-child(2) {
+    position: absolute;
+    right: 0;
+}
+
+.coffee-shop-list-initial {
+    max-width: 1440px;
+}
+
+.coffee-shop-list-dessert {
+    justify-self: end;
+}
+
+
+
+
 /* .favorites div:nth-child(2) img {
     align-self: flex-end;
     justify-self: flex-end;
