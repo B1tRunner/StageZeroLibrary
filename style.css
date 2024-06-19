@@ -2,6 +2,7 @@
     --main-white: #FFFFFF;
     --main-background-black: #0C0C0E;
     --main-border-black: #000000;
+    --main-golden: #BB945F;
 }
 
 img {
@@ -44,6 +45,10 @@ header p {
 
 nav {
     gap: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
 }
 
 .welcome {
@@ -113,16 +118,52 @@ nav a{
     height: 2rem;
 }
 
+.coffee-shop {
+    text-align: center;
+    padding: 0 2rem;
+}
 
+.section-header {
+    position: relative;
+}
+
+.section-header::after {
+    content:" ";
+    height: 2px;
+    width: 3rem;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 150%;
+    left: 47%;
+}
+
+.coffee-shop-list-initial {
+    padding: 0 2rem;
+}
 
 /* .coffee-shop p:nth-child(2) {
     align-self: center;
     text-align: center;
 } */
 
+.coffee-shop-h {
+    font-size: 3rem;
+    color: var(--main-golden);
+}
+
+.coffee-shop-h-1 {
+    text-align: start;
+}
+
+.coffee-shop-h-2 {
+    text-align: end;
+}
+
 .coffee-shop-list {
     position: relative;
     max-width: 430px;
+
 }
 
 .coffee-shop-list p:nth-child(1) {
@@ -140,9 +181,15 @@ nav a{
     left: 10rem;
 }
 
-.coffee-shop-list p:nth-child(2) {
+/* .coffee-shop-list p:nth-child(2) {
     position: absolute;
     right: 0;
+} */
+
+.coffee-shop-list-initial-sub div {
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .coffee-shop-list-initial {
