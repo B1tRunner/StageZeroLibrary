@@ -216,6 +216,37 @@ nav a{
     margin: 3rem;
 }
 
+.heading-center {
+    text-align: center;
+}
+
+.card-form {
+    border: 1px solid var(--main-golden) ;
+    margin: 30px;
+    gap: 30px;
+    padding: 30px;
+}
+
+.card-form div {
+    gap: 30px;
+    background: var(--main-golden);
+    padding: 20px;
+}
+
+.card-form input {
+    width: 520px;
+    height: 66px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-indent: 30px;
+}
+
+.card-form button {
+    align-self: center;
+    width: 242px;
+    height: 44px;
+    background-color: white;
+}
 
 
 /* .favorites div:nth-child(2) img {
