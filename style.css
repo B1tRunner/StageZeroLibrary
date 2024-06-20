@@ -204,6 +204,17 @@ nav a{
     justify-self: end;
 }
 
+.contacts-heading {
+    text-align: center;
+}
+
+.contacts-text {
+    padding: 60px;
+}
+
+.contacts {
+    margin: 3rem;
+}
 
 
 
