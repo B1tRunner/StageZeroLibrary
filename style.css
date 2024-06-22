@@ -106,7 +106,23 @@ nav a{
     max-width: 560px;
     border: 1px solid brown;
     margin-right: 2rem;
+    padding: 20px;
     
+}
+
+.favorites-items-box p:nth-child(1) {
+    font-size: 20px;
+    position: relative;
+}
+
+.favorites-items-box p:nth-child(1)::after {
+    content:" ";
+    height: 2px;
+    width: 4rem;
+    background: var(--main-golden);
+    display: block;
+    position: absolute;
+    top: 40px;
 }
 
 .favorites-items-box img {
