@@ -248,6 +248,22 @@ nav a{
     background-color: white;
 }
 
+.get-a-card {
+    max-width: 456px;
+    text-align: end;
+}
+
+.get-a-card div {
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.get-a-card div button {
+    align-self: center;
+    width: 75px;
+    height: 35px;
+    background-color: white;
+}
 
 /* .favorites div:nth-child(2) img {
     align-self: flex-end;
