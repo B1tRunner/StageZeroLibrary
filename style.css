@@ -251,6 +251,7 @@ nav a{
 .get-a-card {
     max-width: 456px;
     text-align: end;
+    margin: 30px;
 }
 
 .get-a-card div {
@@ -263,6 +264,54 @@ nav a{
     width: 75px;
     height: 35px;
     background-color: white;
+}
+
+footer {
+    background: var(--main-background-black);
+    padding: 20px;
+}
+
+
+.footer-info div:nth-child(1) p:nth-child(1) {
+    color: var(--main-white);
+    max-width: 229px;
+    font-size: 15px;
+}
+
+.footer-info div:nth-child(1) p:nth-child(2) {
+    text-indent: 70px;
+    color: var(--main-white);
+    max-width: 149px;
+    font-size: 15px;
+}
+
+.footer-info div:nth-child(2) div {
+    width: 105px;
+    align-items: center;
+}
+
+.footer-info div:nth-child(2) p {
+    text-indent: 70px;
+    color: var(--main-white);
+    max-width: 149px;
+    font-size: 15px;
+}
+
+.footer-rss {
+    font-size: 20px;
+    position: relative;
+    color: var(--main-white);
+}
+
+.footer-rss::before {
+    content:" ";
+    height: 2px;
+    width: 1300px;
+    background: var(--main-white);
+    display: block;
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
 }
 
 /* .favorites div:nth-child(2) img {
